@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic PWA App</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Manifest & Theme -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- Fonts: Google Fonts - Inter (modern, minimal font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #2F3BA2, #1B1F3B);
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.8rem;
+            opacity: 0.5;
+        }
+    </style>
+
+    <!-- JavaScript -->
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Hello, PWA World 👋</h1>
+        <p>Xtremepush PWA Test Application</p>
+    </main>
+
+    <footer>Made with ❤️</footer>
+</body>
+</html>
